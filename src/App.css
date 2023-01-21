@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+body{
+   background-color:#bfd2e4 !important;
+   color: cornflowerblue !important;
+   text-align: center !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.conatiner h1{
+  margin: 3% 0;
+}
+.advice-box{
+  background-color: #ffffff;
+  display: inline-block;
+  width:50%;
+  border-radius: 50px;
+  padding: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dice-container{
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dice-background{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    z-index: -1;
 }
 
-.App-link {
-  color: #61dafb;
+.addQuotes{
+  background-color: #ffffff !important;
+  color: cornflowerblue!important;
+  padding: 1% !important;
+  border-radius: 5%;
+  border: none !important;
+  margin: 3% 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-footer,
+.modal-header{
+  border: none !important;
 }
+
+.modal-body textarea{
+  width: 100%;
+}
+
+.modal-footer{
+   justify-content: flex-start !important;
+}
+
+.modal-footer .btn-secondary{
+   background-color: #6495ED;
+   border:1px solid #6495ED;
+}
+
+.modal-footer .btn-primary{
+    background-color: #ffffff;
+    border: 1px solid #6495ED;
+    color: #6495ED
+}
+
+.modal-footer .btn-primary:hover,
+.modal-footer .btn-secondary:hover{
+  background-color: #cdd9ee !important;
+  border: 1px solid #cdd9ee !important;
+  color: #ffffff !important;
+}
+
+
